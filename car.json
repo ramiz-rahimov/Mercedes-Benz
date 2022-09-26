@@ -1,0 +1,20 @@
+[
+    {
+        "img":"img/p-1.jpg",
+        "necedir":"Minik avtomobiller",
+        "logo":"img/avtobus.jpg",
+        "transport":"Avtobuslar"
+    },
+    {
+        "img":"img/3car-2.jpg",
+        "necedir":"Aztonnajli avtomobiller",
+        "logo":"img/m-1.jpg",
+        "transport":"Test Drayv"
+    },
+    {
+        "img":"img/bigC-4.jpg",
+        "necedir":"Yuk avtomobiller",
+        "logo":"img/marka.jpg",
+        "transport":"Elaqe"
+    }
+]

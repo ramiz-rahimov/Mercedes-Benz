@@ -1,0 +1,171 @@
+body{
+    background-color:#000;
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+   display: flex;
+   flex-direction: column;
+   height: 21%;
+   padding: 0 8%;
+}
+.top_header{
+    display: flex;
+   padding: 12px 0 5px; 
+   gap: 64px;
+  
+}
+.logo-header{
+    width: 10%;
+    padding-left: 50px;
+}
+.header_unific{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_unific h4{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    height: 25px;
+
+}
+.text-header{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.diller{
+    display: flex;
+    gap: 10px;
+    font-size: 13px
+}
+.diller :nth-child(2):hover{
+    color: aqua;
+    transition: .7s ease;
+}
+.diller :nth-child(3):hover{
+    color: aqua;
+    transition: .7s ease;
+}
+.diller :nth-child(4):hover{
+    color: aqua;
+    transition: .7s ease;
+}
+
+.telefon a span {
+    font-size: 20px;
+    color: #fff;
+    
+}
+.telefon a{
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+    align-items: flex-end;
+}
+.links a {
+    color: #000;
+    padding: 15px;
+    font-size: 16px;
+
+}
+.fa-bars{
+   display: none;
+}
+.links a:hover{
+    color: rgb(124, 230, 230);
+    transition: .7s ease;
+}
+
+.img_car .mercedes_img{
+    width: 100%;
+    height: 174px;
+   
+}
+.img_car .logo{
+    width: 100%;
+    height: 191px;
+}
+.car{
+    display: flex;
+    gap: 15px;
+    padding:30px 8%  50px;
+}
+.all-car{
+    width: 415px;
+}
+.all-car p{
+    color: #fff;
+    font-size: 25px;
+    padding: 16px 0 26px;
+    border-bottom: 1px solid #666666;
+}
+.img_car img{
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    padding-top: 40px;
+    height: 120px;
+    width: 400px;
+
+}
+footer{
+   background-color: #000;
+   padding: 0 8%;
+   
+}
+   
+.unific_a_teg{
+    display: flex;
+    align-items: center;
+    height: 7%;
+   
+    gap: 10px;
+    padding-left: 20px;
+    background-color: #fff;
+}
+footer img{
+    width: 30px;
+    height:50px;
+}
+
+
+
+
+@media(max-width:947px){
+    .car{
+        flex-direction: column;
+        align-items: center;
+    }
+    .links{
+        justify-content: space-around;
+    }
+    .fa-bars{
+        display: flex;
+        color: #fff;
+        font-size: 27px;
+    }
+    .text-header{
+        display: none;
+    }
+
+}
